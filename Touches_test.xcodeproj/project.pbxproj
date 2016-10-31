@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470A1F491DC74DD1007AB59A /* TouchProperyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470A1F481DC74DD1007AB59A /* TouchProperyTestView.swift */; };
+		470A1F4B1DC7641D007AB59A /* TouchRestrictController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470A1F4A1DC7641D007AB59A /* TouchRestrictController.swift */; };
 		478CAC951DC73CE200E9FA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CAC941DC73CE200E9FA16 /* AppDelegate.swift */; };
 		478CAC971DC73CE200E9FA16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CAC961DC73CE200E9FA16 /* ViewController.swift */; };
 		478CAC9A1DC73CE300E9FA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478CAC981DC73CE300E9FA16 /* Main.storyboard */; };
 		478CAC9C1DC73CE300E9FA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478CAC9B1DC73CE300E9FA16 /* Assets.xcassets */; };
 		478CAC9F1DC73CE300E9FA16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478CAC9D1DC73CE300E9FA16 /* LaunchScreen.storyboard */; };
+		478CACA71DC7419700E9FA16 /* RedVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CACA61DC7419700E9FA16 /* RedVIew.swift */; };
+		478CACA91DC745D600E9FA16 /* BlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CACA81DC745D600E9FA16 /* BlueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		470A1F481DC74DD1007AB59A /* TouchProperyTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchProperyTestView.swift; sourceTree = "<group>"; };
+		470A1F4A1DC7641D007AB59A /* TouchRestrictController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchRestrictController.swift; sourceTree = "<group>"; };
 		478CAC911DC73CE200E9FA16 /* Touches_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touches_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		478CAC941DC73CE200E9FA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		478CAC961DC73CE200E9FA16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		478CAC9B1DC73CE300E9FA16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		478CAC9E1DC73CE300E9FA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		478CACA01DC73CE300E9FA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478CACA61DC7419700E9FA16 /* RedVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedVIew.swift; sourceTree = "<group>"; };
+		478CACA81DC745D600E9FA16 /* BlueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				478CAC9B1DC73CE300E9FA16 /* Assets.xcassets */,
 				478CAC9D1DC73CE300E9FA16 /* LaunchScreen.storyboard */,
 				478CACA01DC73CE300E9FA16 /* Info.plist */,
+				478CACA61DC7419700E9FA16 /* RedVIew.swift */,
+				478CACA81DC745D600E9FA16 /* BlueView.swift */,
+				470A1F481DC74DD1007AB59A /* TouchProperyTestView.swift */,
+				470A1F4A1DC7641D007AB59A /* TouchRestrictController.swift */,
 			);
 			path = Touches_test;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478CACA91DC745D600E9FA16 /* BlueView.swift in Sources */,
+				478CACA71DC7419700E9FA16 /* RedVIew.swift in Sources */,
 				478CAC971DC73CE200E9FA16 /* ViewController.swift in Sources */,
 				478CAC951DC73CE200E9FA16 /* AppDelegate.swift in Sources */,
+				470A1F491DC74DD1007AB59A /* TouchProperyTestView.swift in Sources */,
+				470A1F4B1DC7641D007AB59A /* TouchRestrictController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +316,7 @@
 				478CACA51DC73CE300E9FA16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
